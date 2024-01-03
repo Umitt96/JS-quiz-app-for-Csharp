@@ -9,5 +9,6 @@ Correct
 
 
 Incorrect
+
 ![image](https://github.com/Umitt96/JS-quiz-app-for-Csharp/assets/55894059/43c860e7-8d13-4763-baee-0f7904915afd)
 
