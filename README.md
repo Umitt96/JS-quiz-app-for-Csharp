@@ -1,4 +1,5 @@
 # JS-quiz-app-for-Csharp
+Normal 
 ![image](https://github.com/Umitt96/JS-quiz-app-for-Csharp/assets/55894059/1c002a8e-30ca-4567-aa8f-fdfc982eea76)
 
 Correct
