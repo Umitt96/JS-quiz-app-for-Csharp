@@ -1,0 +1,125 @@
+:root {
+    --main: #071952;
+    --main-2: #215a5d;
+    --dark: #31dcd6;
+    --ligth: #9ce3d6;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{ background: #555;}
+
+.app{
+    background-color: var(--ligth);
+    border: 8px solid var(--main);
+    border-radius: 15px;
+    margin: 100px auto 0;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.app h1{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--main);
+    color: var(--main);
+}
+
+.app #quest_count{
+    text-align: right;
+    color: var(--main-2);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.app .quiz{
+    padding: 20px 0;
+}
+
+.app .quiz h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-2);
+    margin-bottom: 20px;
+}
+
+.btn_ans{
+    background-color: white;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border: 3px solid var(--main);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.btn_ans:hover{
+    background-color: var(--main);
+    color: var(--ligth);
+}
+
+
+.button-area{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.btn-nav{
+    background-color: var(--main);
+    color: var(--ligth);
+    font-size: 20px;
+    padding:  10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.btn-nav:nth-child(1){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-nav:nth-child(2){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.btn-nav:hover{
+    color: var(--main);
+    background-color: var(--dark);
+}
+
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.copyrigth{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8c8c8c2a;
+    position: absolute;
+    bottom: 30px;
+    right:  30px;
+}
+
+.correct{ border:  3px outset rgb(5, 248, 5);  background-color: rgb(10, 136, 10); color: white;}
+.incorrect{border: 3px outset rgb(233, 18, 18);  background-color: rgb(233, 18, 18); color: white;}

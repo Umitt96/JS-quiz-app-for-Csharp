@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS quiz app</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1 class="copyrigth">Made by: Ritalin</h1>
+    <div class="app">
+            <div id="quest_count">999</div>
+            <h1>Temel C# soruları</h1>
+        <div class="quiz">
+            <h2 id="question">Sorular buraya gelecek</h2>
+            <div id="answers">
+                <button class="btn_ans">Cevap 1</button>
+                <button class="btn_ans">Cevap 2</button>
+                <button class="btn_ans">Cevap 3</button>
+                <button class="btn_ans">Cevap 4</button>
+                <button class="btn_ans">Cevap 5</button>
+            </div>
+            <div class="button-area">
+                <button id="prev_btn" class="btn-nav" onclick="showPrevQuestion()">Önceki soru</button>
+                <button id="next_btn" class="btn-nav" onclick="showNextQuestion()"></button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/quiz.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
